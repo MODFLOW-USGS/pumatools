@@ -57,49 +57,49 @@ MODPATH generates particle output files based on a coordinate system defined rel
 For forward tracking simulations, the point shapes correspond to the final particle locations. For backward tracking simulations, the point shapes correspond to the final particle locations. The shapefile attributes are:
 
 \begin{description}
-  \item[$\bullet$ ] SeqNumber -- MODPATH simulation sequence number
-  \item[$\bullet$ ] Group -- particle group number
-  \item[$\bullet$ ] ParticleID -- particle ID number within the particle group
-  \item[$\bullet$ ] InitLayer -- initial model layer
-  \item[$\bullet$ ] FinalLayer -- final model layer
-  \item[$\bullet$ ] InitCell -- initial cell number
-  \item[$\bullet$ ] FinalCell -- final cell number
-  \item[$\bullet$ ] InitTime -- initial tracking time
-  \item[$\bullet$ ] FinalTime -- final tracking time
-  \item[$\bullet$ ] TravelTime -- particle travel time (FinalTime - InitTime)
-  \item[$\bullet$ ] InitZone -- zone number of initial cell
-  \item[$\bullet$ ] FinalZone -- zone number of final cell
-  \item[$\bullet$ ] Status -- status code of the particle at the end of the simulation
+  \item[$\bullet$ ] \textbf{SeqNumber} -- MODPATH simulation sequence number
+  \item[$\bullet$ ] \textbf{Group} -- particle group number
+  \item[$\bullet$ ] \textbf{ParticleID} -- particle ID number within the particle group
+  \item[$\bullet$ ] \textbf{InitLayer} -- initial model layer
+  \item[$\bullet$ ] \textbf{FinalLayer} -- final model layer
+  \item[$\bullet$ ] \textbf{InitCell} -- initial cell number
+  \item[$\bullet$ ] \textbf{FinalCell} -- final cell number
+  \item[$\bullet$ ] \textbf{InitTime} -- initial tracking time
+  \item[$\bullet$ ] \textbf{FinalTime} -- final tracking time
+  \item[$\bullet$ ] \textbf{TravelTime} -- particle travel time (FinalTime - InitTime)
+  \item[$\bullet$ ] \textbf{InitZone} -- zone number of initial cell
+  \item[$\bullet$ ] \textbf{FinalZone} -- zone number of final cell
+  \item[$\bullet$ ] \textbf{Status} -- status code of the particle at the end of the simulation
 \end{description}
 
 \SECTION{Pathline Shapefile}
 The shapefile attributes are:
 
 \begin{description}
-  \item[$\bullet$ ] SeqNumber -- MODPATH simulation sequence number
-  \item[$\bullet$ ] Group -- particle group number
-  \item[$\bullet$ ] ParticleID -- particle ID number within the particle group
-  \item[$\bullet$ ] FirstTime -- initial tracking time
-  \item[$\bullet$ ] LastTime -- final tracking time
-  \item[$\bullet$ ] InitZone -- zone number of initial cell
-  \item[$\bullet$ ] FinalZone -- zone number of final cell
+  \item[$\bullet$ ] \textbf{SeqNumber} -- MODPATH simulation sequence number
+  \item[$\bullet$ ] \textbf{Group} -- particle group number
+  \item[$\bullet$ ] \textbf{ParticleID} -- particle ID number within the particle group
+  \item[$\bullet$ ] \textbf{FirstTime} -- initial tracking time
+  \item[$\bullet$ ] \textbf{LastTime} -- final tracking time
+  \item[$\bullet$ ] \textbf{InitZone} -- zone number of initial cell
+  \item[$\bullet$ ] \textbf{FinalZone} -- zone number of final cell
 \end{description}
 
 \SECTION{Timeseries Shapefile}
 Insert paragraphs here
 
 \begin{description}
-  \item[$\bullet$ ] SeqNumber -- MODPATH simulation sequence number
-  \item[$\bullet$ ] Group -- particle group number
-  \item[$\bullet$ ] ParticleID -- particle ID number within the particle group
-  \item[$\bullet$ ] TimePoint -- time point index
-  \item[$\bullet$ ] TimeStep -- cumulative MODFLOW time step number
-  \item[$\bullet$ ] Time -- tracking time
-  \item[$\bullet$ ] TravelTime -- travel time (tracking time - initial time). The initial time is obtained from the endpoint file.
-  \item[$\bullet$ ] Layer -- model layer
-  \item[$\bullet$ ] InitZone -- zone number of initial cell
-  \item[$\bullet$ ] FinalZone -- zone number of final cell
-  \item[$\bullet$ ] Elevation -- elevation of particle coordinate
+  \item[$\bullet$ ] \textbf{SeqNumber} -- MODPATH simulation sequence number
+  \item[$\bullet$ ] \textbf{Group} -- particle group number
+  \item[$\bullet$ ] \textbf{ParticleID} -- particle ID number within the particle group
+  \item[$\bullet$ ] \textbf{TimePoint} -- time point index
+  \item[$\bullet$ ] \textbf{TimeStep} -- cumulative MODFLOW time step number
+  \item[$\bullet$ ] \textbf{Time} -- tracking time
+  \item[$\bullet$ ] \textbf{TravelTime} -- travel time (tracking time - initial time). The initial time is obtained from the endpoint file.
+  \item[$\bullet$ ] \textbf{Layer} -- model layer
+  \item[$\bullet$ ] \textbf{InitZone} -- zone number of initial cell
+  \item[$\bullet$ ] \textbf{FinalZone} -- zone number of final cell
+  \item[$\bullet$ ] \textbf{Elevation} -- elevation of particle coordinate
 \end{description}
 
 \vspace*{\fill}
